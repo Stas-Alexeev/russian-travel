@@ -1,6 +1,7 @@
 .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   width: 1184px;
   height: 671px;
-  background-color: green;
-  color: white;
 }

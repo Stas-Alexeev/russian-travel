@@ -1,6 +1,7 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
   width: 1184px;
   height: 18px;
-  background-color: darkmagenta;
   color: white;
 }
