@@ -2,5 +2,11 @@
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 29px;
+  color: #ffffff;
+  padding-bottom: 26px;
   margin: 0;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1184px;
+  width: 92.5%;
   height: 52px;
-  padding-top: 28px;
+  padding: 28px 0 56px;
   margin: 0;
 }
