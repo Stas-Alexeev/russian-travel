@@ -1,4 +1,5 @@
 .lead {
-  width: 83%;
+  min-width: 76.875vw;
+  min-height: 78.5156vw;
   margin: 0;
 }

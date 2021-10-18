@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns: repeat(4, fit-content(284px));
   grid-template-rows: repeat(3, fit-content(213px));
-  gap: 16px;
-  width: 100%;
+  gap: 1.25vw;
+  width: 92.5vw;
+  min-height: 52.4219vw;
   margin: 0;
-  border: 1px dashed white;
 }
 
 @media screen and (max-width: 1024px) {

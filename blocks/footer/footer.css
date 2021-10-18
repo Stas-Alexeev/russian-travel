@@ -1,8 +1,8 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  width: 1184px;
-  height: 18px;
+  width: 92.5vw;
+  min-height: 1.4063vw;
   color: white;
   padding-top: 92px;
   padding-bottom: 24px;

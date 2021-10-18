@@ -1,6 +1,7 @@
 .intro {
   align-self: flex-start;
-  width: 58.2%;
+  width: 53.9063vw;
+  min-height: 33.5156vw;
   color: white;
   padding: 92px 0 92px 100px;
   margin: 0;

@@ -1,11 +1,13 @@
 .header__lang-link {
+  display: inline-block;
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: normal;
+  font-size: 1.875vw;
+  line-height: 2.1875vw;
+  width: 2.2656vw;
+  height: 2.1875vw;
   text-decoration: none;
   color: white;
-  margin-right: 18px;
+  margin-right: 1.40625vw;
 }
 
 .header__lang-link:last-child {

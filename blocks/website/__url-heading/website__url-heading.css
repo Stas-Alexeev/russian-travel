@@ -1,7 +1,9 @@
 .website__url-heading {
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 0.9375vw;
+  line-height: 0.9375vw;
+  width: 35.625vw;
+  min-height: 0.9375vw;
   text-transform: uppercase;
   color: #aaaaaa;
   padding-bottom: 12px;

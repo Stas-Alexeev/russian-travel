@@ -1,7 +1,9 @@
 .footer__link {
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1.25vw;
+  line-height: 1.4063vw;
+  width: 3.9063vw;
+  min-height: 1.4063vw;
   color: white;
   text-decoration: none;
   margin-right: 18px;

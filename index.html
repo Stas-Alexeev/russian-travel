@@ -7,9 +7,9 @@
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
+  <body class="page">
     <!-- PAGE -->
-    <div class="page">
+    <div class="page__container">
       <!-- HEADER -->
       <header class="header">
         <div class="header__logo"></div>
@@ -28,7 +28,7 @@
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <div class="lead__image"></div>
+          <img class="lead__image" src="./images/lead-polka.jpg" />
           <p class="lead__caption">Ваша полка - верхняя</p>
         </section>
         <!-- LEAD_END -->
@@ -98,9 +98,12 @@
             <ul class="website">
               <li class="website__url-heading">url</li>
               <li>
-                <a href="http://park-kosa.ru" class="website__link"
-                  >park-kosa.ru</a
-                >
+                <a
+                  href="http://park-kosa.ru"
+                  target="_blank"
+                  class="website__link"
+                  >park-kosa.ru
+                </a>
               </li>
             </ul>
             <img class="place__image" src="./images/place-kosa.jpg" />
@@ -129,6 +132,7 @@
               <li>
                 <a
                   href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                  target="_blank"
                   class="website__link"
                   >National Geographic</a
                 >
@@ -159,6 +163,7 @@
               <li>
                 <a
                   href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                  target="_blank"
                   class="website__link"
                   >Facebook</a
                 >
@@ -187,7 +192,10 @@
             <ul class="website">
               <li class="website__url-heading">url</li>
               <li>
-                <a href="https://vk.com/baikalmile" class="website__link"
+                <a
+                  href="https://vk.com/baikalmile"
+                  target="_blank"
+                  class="website__link"
                   >https://vk.com/baikalmile</a
                 >
               </li>
@@ -214,7 +222,10 @@
             <ul class="website">
               <li class="website__url-heading">url</li>
               <li>
-                <a href="http://vodlozero.ru" class="website__link"
+                <a
+                  href="http://vodlozero.ru"
+                  class="website__link"
+                  target="_blank"
                   >http://vodlozero.ru</a
                 >
               </li>
@@ -239,7 +250,14 @@
 
         <!-- COVER -->
         <section class="cover">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">
+            <a
+              href="https://stampsy.com/na-elektrichkakh-do-baikala"
+              class="cover__link"
+              target="_blank"
+              >До Байкала «на собаках»</a
+            >
+          </h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.

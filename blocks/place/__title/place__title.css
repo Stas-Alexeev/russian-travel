@@ -1,8 +1,9 @@
 .place__title {
   font-family: "Inter-Black", "Arial", "Helvetica", sans-serif;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 5.625vw;
+  line-height: 5.9375vw;
   color: #ffffff;
-  width: 460px;
+  width: 35.9375vw;
+  min-height: 5.9375vw;
   margin: 0;
 }
