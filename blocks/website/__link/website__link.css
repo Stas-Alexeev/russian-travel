@@ -1,9 +1,13 @@
 .website__link {
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 1.4063vw;
-  line-height: 1.7188vw;
-  width: 35.625vw;
-  min-height: 1.7188vw;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 456px;
   color: #ffffff;
   margin: 0;
+}
+
+.website__link:hover {
+  opacity: 0.2;
+  transition: opacity 0.3s linear;
 }

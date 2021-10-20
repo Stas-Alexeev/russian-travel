@@ -1,15 +1,24 @@
 .header__lang-link {
-  display: inline-block;
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 1.875vw;
-  line-height: 2.1875vw;
-  width: 2.2656vw;
-  height: 2.1875vw;
-  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
   color: white;
-  margin-right: 1.40625vw;
+  text-decoration: none;
+  margin-right: 18px;
 }
 
 .header__lang-link:last-child {
   margin-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.2;
+  transition: opacity 0.3s linear;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

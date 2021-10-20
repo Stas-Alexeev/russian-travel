@@ -1,8 +1,7 @@
 .website {
   align-self: end;
   list-style: none;
-  width: 35.625vw;
-  min-height: 3.5938vw;
+  max-width: 456px;
   padding-left: 0;
   margin: 0;
 }

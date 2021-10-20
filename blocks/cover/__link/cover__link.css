@@ -1,4 +1,7 @@
 .cover__link {
+  width: 100%;
+  height: 740px;
   text-decoration: none;
-  color: #ffffff;
+  position: absolute;
+  z-index: 1;
 }

@@ -1,13 +1,36 @@
 .place__paragraph {
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
-  font-size: 1.4063vw;
-  line-height: 2.2656vw;
-  width: 37.8125vw;
-  color: #ffffff;
+  font-size: 18px;
+  line-height: 29px;
+  max-width: 484px;
   padding-bottom: 26px;
   margin: 0;
 }
 
 .place__paragraph:last-child {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 288px;
+  }
 }

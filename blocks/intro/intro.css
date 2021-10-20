@@ -1,8 +1,21 @@
 .intro {
-  align-self: flex-start;
-  width: 53.9063vw;
-  min-height: 33.5156vw;
+  width: 83.1%;
+  padding-top: 92px;
+  padding-bottom: 92px;
   color: white;
-  padding: 92px 0 92px 100px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }

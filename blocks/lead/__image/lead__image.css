@@ -1,6 +1,5 @@
 .lead__image {
   display: block;
-  width: 76.875vw;
-  min-height: 48.0468vw;
+  width: 100%;
   margin: 0;
 }
