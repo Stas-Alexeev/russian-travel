@@ -1,5 +1,5 @@
 .page {
-  max-width: 1280px;
+  width: 1280px;
   background-color: #2a2c2f;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -7,23 +7,23 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .page {
-    max-width: 1024px;
+    width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    max-width: 768px;
+    width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    max-width: 320px;
+    width: 320px;
   }
 }

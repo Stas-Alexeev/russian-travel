@@ -2,14 +2,14 @@
   font-family: "Inter-Black", "Arial", "Helvetica", sans-serif;
   font-size: 54px;
   line-height: 58px;
-  max-width: 690px;
+  width: 690px;
   padding-bottom: 40px;
   margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    max-width: 720px;
+    width: 720px;
   }
 }
 

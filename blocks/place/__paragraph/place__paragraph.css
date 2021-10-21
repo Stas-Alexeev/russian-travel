@@ -2,7 +2,7 @@
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 29px;
-  max-width: 484px;
+  width: 484px;
   padding-bottom: 26px;
   margin: 0;
 }
@@ -32,5 +32,6 @@
     font-size: 16px;
     line-height: 26px;
     max-width: 288px;
+    margin: 0 auto;
   }
 }

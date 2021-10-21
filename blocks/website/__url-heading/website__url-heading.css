@@ -4,7 +4,19 @@
   line-height: 12px;
   color: #aaaaaa;
   text-transform: uppercase;
-  max-width: 456px;
+  width: 456px;
   padding-bottom: 12px;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .website__url-heading {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website__url-heading {
+    width: 288px;
+  }
 }

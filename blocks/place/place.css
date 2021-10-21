@@ -1,10 +1,9 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
-  /* grid-template-columns: 46.75% 1fr; */
+  grid-template-columns: 460px 484px;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 48px 40px;
-  width: 100%;
+  width: 984px;
   padding-bottom: 80px;
   color: #ffffff;
   margin: 0;
@@ -16,8 +15,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    /* grid-template-columns: 42.96% 1fr; */
+    grid-template-columns: 440px 456px;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px 32px;
     max-width: 928px;
@@ -27,8 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    /* grid-template-columns: 44.27% 1fr; */
+    grid-template-columns: 340px 352px;
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px 28px;
     max-width: 720px;
@@ -38,9 +35,8 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-    /* grid-template-columns: 100% 1fr; */
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: 320px;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
     row-gap: 32px;
     max-width: 320px;
     padding-bottom: 80px;

@@ -2,7 +2,7 @@
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 22px;
-  max-width: 456px;
+  width: 456px;
   color: #ffffff;
   margin: 0;
 }
@@ -10,4 +10,16 @@
 .website__link:hover {
   opacity: 0.2;
   transition: opacity 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .website__link {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website__link {
+    width: 288px;
+  }
 }

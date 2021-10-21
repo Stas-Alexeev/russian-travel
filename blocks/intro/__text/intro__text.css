@@ -1,5 +1,5 @@
 .intro__text {
-  max-width: 690px;
+  width: 690px;
   font-family: "Inter-Regular", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 26px;
@@ -9,11 +9,11 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    max-width: 720px;
+    width: 720px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .intro__text {
     max-width: 288px;
   }
