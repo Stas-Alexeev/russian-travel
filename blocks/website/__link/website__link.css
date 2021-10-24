@@ -14,12 +14,28 @@
 
 @media screen and (max-width: 768px) {
   .website__link {
-    width: 352px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .website__link {
+    max-width: 205px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .website__link {
+    max-width: 205px;
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .website__link {
-    width: 288px;
+    max-width: 288px;
   }
 }

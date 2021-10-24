@@ -8,21 +8,61 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    width: 440px;
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place__title {
+    font-size: 60px;
+    line-height: 64px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    width: 340px;
+    max-width: 270px;
     font-size: 42px;
     line-height: 46px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .place__title {
+    max-width: 240px;
+    font-size: 38px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .place__title {
+    max-width: 205px;
+    font-size: 36px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .place__title {
+    max-width: 170px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .place__title {
+    max-width: 150px;
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .place__title {
-    width: 288px;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     margin: 0 auto;

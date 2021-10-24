@@ -1,8 +1,7 @@
 .website {
-  max-width: 94.21%;
+  /* max-width: 94.21%; */
   align-self: end;
   list-style: none;
-
   padding-left: 0;
   margin: 0;
 }
@@ -15,7 +14,7 @@
 
 @media screen and (max-width: 320px) {
   .website {
-    max-width: 288px;
+    width: 288px;
     margin: 0 auto;
   }
 }
