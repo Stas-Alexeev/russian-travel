@@ -1,20 +1,21 @@
 .website {
+  max-width: 94.21%;
   align-self: end;
   list-style: none;
-  width: 456px;
+
   padding-left: 0;
   margin: 0;
 }
 
 @media screen and (max-width: 768px) {
   .website {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .website {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
   }
 }
