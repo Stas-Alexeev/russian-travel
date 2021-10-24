@@ -7,5 +7,5 @@
 - Адаптивная вёрстка
 - Респонсивная вёрстка
 
-* [Проект на GitHub Pages]()
+* [Проект на GitHub Pages](https://stas-alexeev.github.io/russian-travel/)
 
