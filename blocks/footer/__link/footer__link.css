@@ -3,10 +3,10 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
-  height: 18px;
   color: white;
   text-decoration: none;
   margin-right: 18px;
+  transition: opacity 0.3s linear;
 }
 
 .footer__link:last-child {
@@ -14,8 +14,7 @@
 }
 
 .footer__link:hover {
-  opacity: 0.2;
-  transition: opacity 0.3s linear;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

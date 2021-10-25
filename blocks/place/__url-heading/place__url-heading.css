@@ -1,22 +1,23 @@
-.website__url-heading {
+.place__url-heading {
   width: 100%;
   font-size: 12px;
   line-height: 12px;
   font-weight: 400;
   color: #aaaaaa;
   text-transform: uppercase;
+  letter-spacing: 2px;
   padding-bottom: 12px;
   margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .website__url-heading {
+  .place__url-heading {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .website__url-heading {
+  .place__url-heading {
     max-width: 288px;
   }
 }

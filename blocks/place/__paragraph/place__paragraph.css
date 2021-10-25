@@ -13,8 +13,6 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 18px;
-    line-height: 29px;
     max-width: 456px;
   }
 }
@@ -39,7 +37,6 @@
   .place__paragraph {
     font-size: 12px;
     line-height: 14px;
-    max-width: 352px;
   }
 }
 

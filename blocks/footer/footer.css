@@ -1,7 +1,7 @@
 .footer {
+  width: 1184px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   color: white;
   padding-top: 92px;
   padding-bottom: 24px;
@@ -24,7 +24,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     align-self: flex-start;
-    max-width: 186px;
     flex-direction: column;
     gap: 32px;
     padding-top: 64px;

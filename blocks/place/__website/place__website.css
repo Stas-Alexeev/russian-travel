@@ -1,5 +1,4 @@
-.website {
-  /* max-width: 94.21%; */
+.place__website {
   align-self: end;
   list-style: none;
   padding-left: 0;
@@ -7,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .website {
+  .place__website {
     max-width: 352px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .website {
+  .place__website {
     width: 288px;
     margin: 0 auto;
   }
