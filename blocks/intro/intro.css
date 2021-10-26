@@ -1,30 +1,28 @@
 .intro {
-  width: 83.1%;
+  width: 984px;
+  color: white;
   padding-top: 92px;
   padding-bottom: 92px;
-  color: white;
   margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 690px;
+    width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     width: 720px;
-    padding-top: 88px;
-    padding-bottom: 88px;
+    padding: 88px 24px 88px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 288px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    width: 256px;
+    padding: 64px 16px 64px 16px;
     margin: 0 auto;
   }
 }

@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 100%;
+  width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, calc((100% - 48px) / 4));
   grid-template-rows: repeat(3, calc((100% - 32px) / 3));
@@ -9,27 +9,33 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    max-width: 928px;
+    width: 928px;
     grid-template-columns: repeat(3, fit-content(300px));
     grid-template-rows: repeat(4, fit-content(225px));
     gap: 14px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: 720px;
+    width: 720px;
     grid-template-columns: repeat(2, fit-content(352px));
     grid-template-rows: repeat(6, fit-content(264px));
     gap: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    max-width: 288px;
+    width: 288px;
     grid-template-columns: fit-content(288px);
     grid-template-rows: repeat(12, fit-content(216px));
     gap: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

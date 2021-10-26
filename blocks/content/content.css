@@ -6,8 +6,20 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    width: 768px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .content {
-    max-width: 320px;
+    width: 320px;
   }
 }
