@@ -1,29 +1,21 @@
 .page__container {
-  max-width: 1184px;
+  width: calc(100% - 96px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 28px 48px 24px 48px;
+  padding-top: 28px;
+  padding-bottom: 24px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .page__container {
-    max-width: 1024px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page__container {
-    max-width: 768px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__container {
-    max-width: 320px;
     padding-top: 16px;
   }
 }

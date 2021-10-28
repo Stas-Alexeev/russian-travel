@@ -9,13 +9,17 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 90.625%; /* 928px */
+    width: calc(100% - 96px);
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 93.75%; /* 720px */
+    width: calc(100% - 48px);
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 88px;
   }
 }
@@ -30,11 +34,10 @@
   }
 }
 
-
 @media screen and (max-width: 320px) {
   .footer {
-    width: 95%; /*304px*/
+    width: calc(100% - 134px);
+    padding-right: 118px;
     padding-top: 64px;
-
   }
 }
