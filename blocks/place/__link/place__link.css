@@ -17,19 +17,11 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 720px) {
   .place__link {
-    max-width: 205px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .place__link {
-    max-width: 205px;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 14px;
+    max-width: 288px;
   }
 }
 

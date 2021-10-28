@@ -1,5 +1,5 @@
  .cover {
-   width: 1184px;
+   width: 100%; /* 1184px */
    background-image: url(../../images/cover-trains.jpg);
    background-size: cover;
    background-position: center;
@@ -9,7 +9,7 @@
 
 .cover::before {
   display: block;
-  width: 100%;
+  width: 100%; /* 1184px */
   min-height: 740px;
   content: "";
   position: absolute;

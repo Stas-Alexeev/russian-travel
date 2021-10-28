@@ -1,5 +1,5 @@
 .page__container {
-  width: 1184px;
+  max-width: 1184px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
   .page__container {
-    width: 1024px;
+    max-width: 1024px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -17,13 +17,13 @@
 
 @media screen and (max-width: 768px) {
   .page__container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__container {
-    width: 320px;
+    max-width: 320px;
     padding-top: 16px;
   }
 }

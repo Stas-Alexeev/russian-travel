@@ -5,3 +5,12 @@
   padding-left: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .footer__links-zone {
+    max-width: 100%;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

@@ -1,5 +1,5 @@
 .intro {
-  width: 984px;
+  width: 83.11%; /*984px*/
   color: white;
   padding-top: 92px;
   padding-bottom: 92px;
@@ -8,20 +8,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 928px;
+    width: 90.625%; /*928px*/
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 720px;
-    padding: 88px 24px 88px 24px;
+    width: 93.75%; /*720px*/
+    padding: 88px 0 88px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    width: 256px;
+    width: 90%; /*288px*/
     padding: 64px 16px 64px 16px;
     margin: 0 auto;
   }

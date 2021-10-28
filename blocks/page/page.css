@@ -1,5 +1,6 @@
 .page {
-  width: 1280px;
+  max-width: 1280px;
+  min-width: 320px;
   background-color: #2a2c2f;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
@@ -13,18 +14,18 @@
 
 @media screen and (max-width: 1024px) {
   .page {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    width: 320px;
+    max-width: 320px;
   }
 }
